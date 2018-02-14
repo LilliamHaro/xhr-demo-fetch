@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Asul);
+body{
+  background-color:#B899BB;
+  color:#2E1263;
+  font-size: 120%;
+  font-family: 'Asul', sans-serif;
+  font-weight: 200;
+
+}
+h1 {
+  font-weight: 200;
+  padding-bottom: 0;
+  font-size: 3em;
+  text-transform: uppercase;
+  border-top: 5px solid;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.input {
+  width: 200px;
+  height: 30px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+li {
+  list-style: none;
+  padding: 15px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  background-color: #BA75C0;
+  border-radius: 5px
+}
+a {
+  text-decoration: none;
+  color: #243268;
+}
+
+a:hover {
+  color: #49A8BD;
+}
+.button {
+    margin: 30px auto 0;
+    padding: 10px 15px;
+  background-color: black;
+    color: #fff;
+    font-size:20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  outline: none;
+    overflow: hidden;
+    letter-spacing: .08em;
+    border-radius: 0;
+  border: 2px solid #2E1263;
+  border-radius: 5px;
+}
+.mg-top {
+  margin-top: 15px;
+}
+.button:hover {
+  transition: 0.3s;
+  background: pink;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  margin: 20px;
+}
